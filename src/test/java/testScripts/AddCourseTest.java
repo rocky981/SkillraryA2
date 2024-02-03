@@ -8,7 +8,9 @@ import org.testng.asserts.SoftAssert;
 import genericUtilities.BaseClass;
 import genericUtilities.IConstantPath;
 
+
 public class AddCourseTest extends BaseClass {
+	//this test is verifies user is able to create add course
 	@Test
 	public void addCourseTest(){
 		SoftAssert soft = new SoftAssert();
