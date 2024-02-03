@@ -6,8 +6,10 @@ import org.testng.asserts.SoftAssert;
 
 import genericUtilities.BaseClass;
 import genericUtilities.IConstantPath;
+//This test verifies is user is able to create addcategory
 
 public class AddCategoryTest extends BaseClass {
+
 	public void addCategoryTest() {
 		SoftAssert soft = new SoftAssert();
 		home.clickCoursesTab();
